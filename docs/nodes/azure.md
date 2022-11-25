@@ -5,6 +5,15 @@ title: Azure
 
 Node classes list of azure provider.
 
+## azure.ai_ml
+
+- **diagrams.azure.ai_ml.BotServices**
+- **diagrams.azure.ai_ml.CognitiveServices**
+- **diagrams.azure.ai_ml.MachineLearningStudioClassicWebServices**
+- **diagrams.azure.ai_ml.MachineLearningStudioWebServicePlans**
+- **diagrams.azure.ai_ml.MachineLearningStudioWorkspaces**
+- **diagrams.azure.ai_ml.TranslatorText**
+
 ## azure.analytics
 
 
@@ -43,6 +52,41 @@ Node classes list of azure provider.
 
 <img width="30" src="/img/resources/azure/analytics/synapse-analytics.png" alt="SynapseAnalytics" style="float: left; padding-right: 5px;" >
 **diagrams.azure.analytics.SynapseAnalytics**
+
+## azure.app_services
+
+- **diagrams.azure.app_services.APIManagementServices**
+- **diagrams.azure.app_services.AppServiceCertificates**
+- **diagrams.azure.app_services.AppServiceDomains**
+- **diagrams.azure.app_services.AppServiceEnvironments**
+- **diagrams.azure.app_services.AppServicePlans**
+- **diagrams.azure.app_services.AppServices**
+- **diagrams.azure.app_services.CDNProfiles**
+- **diagrams.azure.app_services.NotificationHubs**
+- **diagrams.azure.app_services.SearchServices**
+
+## azure.azure_stack
+
+- **diagrams.azure.azure_stack.Capacity**
+- **diagrams.azure.azure_stack.InfrastructureBackup**
+- **diagrams.azure.azure_stack.MultiTenancy**
+- **diagrams.azure.azure_stack.Offers**
+- **diagrams.azure.azure_stack.Plans**
+- **diagrams.azure.azure_stack.Stack**
+- **diagrams.azure.azure_stack.Updates**
+- **diagrams.azure.azure_stack.UserSubscriptions**
+
+## azure.azure_vmware
+
+- **diagrams.azure.azure_vmware.Avs**
+
+## azure.blockchain
+
+- **diagrams.azure.blockchain.AbsMember**
+- **diagrams.azure.blockchain.BlockchainService**
+- **diagrams.azure.blockchain.Consortium**
+- **diagrams.azure.blockchain.OutboundConnection**
+- **diagrams.azure.blockchain.TokenService**
 
 ## azure.compute
 
@@ -137,7 +181,7 @@ Node classes list of azure provider.
 <img width="30" src="/img/resources/azure/compute/workspaces.png" alt="Workspaces" style="float: left; padding-right: 5px;" >
 **diagrams.azure.compute.Workspaces**
 
-## azure.database
+## azure.containers
 
 
 <img width="30" src="/img/resources/azure/database/blob-storage.png" alt="BlobStorage" style="float: left; padding-right: 5px;" >
@@ -431,6 +475,20 @@ Node classes list of azure provider.
 <img width="30" src="/img/resources/azure/integration/system-topic.png" alt="SystemTopic" style="float: left; padding-right: 5px;" >
 **diagrams.azure.integration.SystemTopic**
 
+## azure.internet_of_things
+
+- **diagrams.azure.internet_of_things.DigitalTwins**
+- **diagrams.azure.internet_of_things.TimeSeriesInsightsAccessPolicies**
+
+## azure.intune
+
+- **diagrams.azure.intune.ADRolesAndAdministrators**
+- **diagrams.azure.intune.DeviceSecurityApple**
+- **diagrams.azure.intune.DeviceSecurityGoogle**
+- **diagrams.azure.intune.DeviceSecurityWindows**
+- **diagrams.azure.intune.IntuneForEducation**
+- **diagrams.azure.intune.Intune**
+
 ## azure.iot
 
 
@@ -464,7 +522,7 @@ Node classes list of azure provider.
 <img width="30" src="/img/resources/azure/iot/windows-10-iot-core-services.png" alt="Windows10IotCoreServices" style="float: left; padding-right: 5px;" >
 **diagrams.azure.iot.Windows10IotCoreServices**
 
-## azure.migration
+## azure.management_governance
 
 
 <img width="30" src="/img/resources/azure/migration/data-box-edge.png" alt="DataBoxEdge" style="float: left; padding-right: 5px;" >
@@ -482,7 +540,7 @@ Node classes list of azure provider.
 <img width="30" src="/img/resources/azure/migration/recovery-services-vaults.png" alt="RecoveryServicesVaults" style="float: left; padding-right: 5px;" >
 **diagrams.azure.migration.RecoveryServicesVaults**
 
-## azure.ml
+## azure.migrate
 
 
 <img width="30" src="/img/resources/azure/ml/batch-ai.png" alt="BatchAI" style="float: left; padding-right: 5px;" >
@@ -509,7 +567,7 @@ Node classes list of azure provider.
 <img width="30" src="/img/resources/azure/ml/machine-learning-studio-workspaces.png" alt="MachineLearningStudioWorkspaces" style="float: left; padding-right: 5px;" >
 **diagrams.azure.ml.MachineLearningStudioWorkspaces**
 
-## azure.mobile
+## azure.mixed_reality
 
 
 <img width="30" src="/img/resources/azure/mobile/app-service-mobile.png" alt="AppServiceMobile" style="float: left; padding-right: 5px;" >
@@ -521,7 +579,7 @@ Node classes list of azure provider.
 <img width="30" src="/img/resources/azure/mobile/notification-hubs.png" alt="NotificationHubs" style="float: left; padding-right: 5px;" >
 **diagrams.azure.mobile.NotificationHubs**
 
-## azure.network
+## azure.monitor
 
 
 <img width="30" src="/img/resources/azure/network/application-gateway.png" alt="ApplicationGateway" style="float: left; padding-right: 5px;" >
